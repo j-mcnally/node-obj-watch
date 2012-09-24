@@ -11,6 +11,9 @@ module.exports = class ObjWatcher extends require('events').EventEmitter
   constructor: (namespace) ->
     (new Function( "with(this) { this.obj = #{namespace} }")).call(@)
     context = @
+    if !Proxy
+      Proxy = require('node-proxy')
+    
     @proxy = Proxy.create
       get: (proxy, name) ->
         return context.obj[name]
