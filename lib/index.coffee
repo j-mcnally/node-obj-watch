@@ -18,12 +18,9 @@ module.exports = class ObjWatcher extends require('events').EventEmitter
       get: (proxy, name) ->
         return context.obj[name]
       set: (proxy, name, value) ->
-        console.log('write request to ' + name + ' property with ' + value + ' value');
         if !context.obj[name]?
-          console.log('loading')
           context.emit("load", name)
         else
-          console.log('changing')
           context.emit("change", name)
         context.obj[name] = value
         
