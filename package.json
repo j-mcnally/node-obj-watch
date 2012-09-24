@@ -24,11 +24,11 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/User/testproj/issues"
+    "url": "https://github.com/j-mcnally/node-obj-watch/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/User/testproj.git"
+    "url": "https://github.com/j-mcnally/node-obj-watch.git"
   },
   "engines": {
     "node": ">= 0.6.0",
