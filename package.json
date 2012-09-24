@@ -1,0 +1,40 @@
+{
+  "name": "node-obj-watch",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/j-mcnally/node-obj-watch",
+  "main": "./lib/index.coffee",
+  "subdomain": "nodeobjwatch",
+  "author": "'Justin McNally' <justin@kohactive.com>",
+  "keywords": [
+    "node"
+  ],
+  "maintainers": [{
+    "name": "Justin McNally",
+    "email": "justin@kohactive.com"
+  }],
+  "contributors": [
+
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mths.be/mit"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/User/testproj/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/User/testproj.git"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1"
+  },
+  "dependencies": {
+    "coffee-script": ">= 1.3.3"
+  }
+}
