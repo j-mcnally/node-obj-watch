@@ -28,5 +28,7 @@ Hints
 =====
 
 This has only been tested with NodeJS 0.8.2
-Its advised that you turn harmony-proxies on but it does sue node-proxy as a fallback.
+
+It is advised that you turn harmony-proxies on but it does use node-proxy as a fallback.
+
 The code should be easy to port to browsers but again only ones that have implemented harmony proxies.
